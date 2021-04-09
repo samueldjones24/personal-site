@@ -1,0 +1,79 @@
+---
+type: page
+title: Portfolio
+date: 2021-03-18
+---
+
+# Portfolio
+
+import Image from 'next/image'
+
+<div className="grid-container">
+  <div className="grid-item">
+    <div className="grid-image">
+      <a
+        href="https://code-anagrams.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src="/images/code-anagrams.png"
+          alt="Code Anagrams"
+          width={1250}
+          height={750}
+          priority
+          layout="responsive"
+          className="next-image"
+        />
+      </a>
+    </div>
+    <h5>Code Anagrams</h5>A fun, lightweight game using <span className="underline-magical">
+      React Hooks
+    </span> to challenge your anagram-solving skills.
+  </div>
+  <div className="grid-item">
+    <div className="grid-image">
+      <a
+        href="https://app.justfulfil.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src="/images/just-fulfil.png"
+          alt="JustFulfil"
+          width={1250}
+          height={750}
+          priority
+          layout="responsive"
+          className="next-image"
+        />
+      </a>
+    </div>
+    <h5>JustFulfil</h5>
+    An eCommerce order fulfilment startup. Small team working on a single-page
+    application in{' '}
+    <span className="underline-magical">React, Node & MySQL</span>.
+  </div>
+  <div className="grid-item">
+    <div className="grid-image">
+      <a
+        href="https://imperiumfunctionalfitness.co.uk"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src="/images/imperium.png"
+          alt="Imperium Functional Fitness"
+          width={1250}
+          height={750}
+          priority
+          layout="responsive"
+          className="next-image"
+        />
+      </a>
+    </div>
+    <h5>Imperium Functional Fitness</h5>
+    Developed a static site for my brother's new gym and dived deeper into the
+    fundamentals of <span className="underline-magical">HTML, CSS & SASS</span>.
+  </div>
+</div>

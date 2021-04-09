@@ -24,7 +24,9 @@ body {
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
+  background-color: #ffffff;
 }
+
 b,
 strong,
 h3,
@@ -48,12 +50,31 @@ h2 {
   }
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 50px;
+}
+
+.grid-image {
+  transition: all 0.3s;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.grid-image:hover {
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
+  transform: translateY(-0.2rem) scale(1.03);
+}
+
 details summary {
   cursor: pointer;
 }
 
 img.next-image {
   margin: 0;
+  border-radius: 3px;
 }
 
 .prose a {
@@ -62,4 +83,26 @@ img.next-image {
 
 .nav-line .nav-link {
   color: #69778c;
+}
+
+.underline-magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 1s;
+}
+
+.underline-magical:hover {
+  animation-name: bgSize;
+  animation-duration: 10s;
+}
+
+@keyframes bgSize {
+  0% {
+    background-size: 100% 88%;
+  }
+  100% {
+    background-size: 105% 88%;
+  }
 }
