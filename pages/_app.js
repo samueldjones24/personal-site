@@ -1,9 +1,11 @@
+import { ThemeProvider } from 'next-themes'
 import 'nextra-theme-blog/style.css'
 import Head from 'next/head'
+import ThemeChanger from '../components/ThemeChanger'
 
 import '../styles/main.css'
 
-export default function Nextra({ Component, pageProps }) {
+export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
@@ -21,7 +23,10 @@ export default function Nextra({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
       </Head>
-      <Component {...pageProps} />
+      <ThemeProvider defaultTheme="system">
+        <ThemeChanger />
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   )
 }
