@@ -4,11 +4,10 @@ const RSS = require('rss')
 const matter = require('gray-matter')
 
 async function generate() {
-  // TODO: Update name + URL
   const feed = new RSS({
     title: 'Samuel Jones',
-    site_url: 'https://yoursite.com',
-    feed_url: 'https://yoursite.com/feed.xml'
+    site_url: 'https://samjones.codes',
+    feed_url: 'https://samjones.codes/feed.xml'
   })
 
   const posts = await fs.readdir(path.join(__dirname, '..', 'pages', 'posts'))
