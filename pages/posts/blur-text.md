@@ -1,6 +1,6 @@
 ---
 title: Use text-shadow to blur text in CSS
-date: 2021/4/28
+date: 2021/5/18
 description: How to blur text using text-shadow in CSS
 tag: css
 author: You

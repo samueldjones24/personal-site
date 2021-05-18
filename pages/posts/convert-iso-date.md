@@ -1,6 +1,6 @@
 ---
 title: Convert ISO date to local date in JavaScript
-date: 2021/4/11
+date: 2021/5/18
 description: How to convert an ISO date string to a local date string in JavaScript
 tag: javascript
 author: You
