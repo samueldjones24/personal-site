@@ -8,10 +8,10 @@ class MyDocument extends Document {
 
   render() {
     const meta = {
-      title: 'Samuel Jones Portfolio',
-      description: 'A personal website for Samuel Jones',
+      title: 'Samuel Jones - Software Developer',
+      description: 'A semi-interesting tech blog by Samuel Jones',
       image:
-        'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+        'https://s3.eu-west-2.amazonaws.com/samjones.codes/Screenshot+2021-05-18+at+14.11.41.png'
     }
 
     return (
