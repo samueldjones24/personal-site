@@ -121,6 +121,11 @@ article {
   padding-bottom: 2rem;
 }
 
+.footer {
+  display: block;
+  margin-top: 4rem;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
