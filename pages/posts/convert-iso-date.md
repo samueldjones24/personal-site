@@ -26,10 +26,10 @@ _\* in this case, our locale is UK_
 
 <h2><span role="img" aria-label="checkmark">✅ </span> Solution</h2>
 
-```
-const date = "2021-03-17T11:23";
+```javascript
+const date = '2021-03-17T11:23'
 
-const convertedDate = new Date(date).toLocaleString();
+const convertedDate = new Date(date).toLocaleString()
 
 console.log(convertedDate) // “17/03/2021 11:23:00”
 ```
@@ -38,8 +38,8 @@ console.log(convertedDate) // “17/03/2021 11:23:00”
 
 As above, the `toLocaleString()` method will return your current locale by default. If you want to specify the locale, simply pass in your chosen locale and any other options:
 
-```
-const koreaDate = newDate(date).toLocaleString('ko-KR', { timeZone: 'UTC' });
+```javascript
+const koreaDate = newDate(date).toLocaleString('ko-KR', { timeZone: 'UTC' })
 
 // expected output: 2012. 12. 20. 오전 3:00:00
 ```

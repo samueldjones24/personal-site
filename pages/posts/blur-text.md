@@ -22,7 +22,7 @@ So, how can we add some blur using the `text-shadow` CSS property?
 
 Define a `blurred-text` class in our CSS file:
 
-```
+```css
 .blurred-text {
   color: transparent;
   text-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
@@ -31,15 +31,13 @@ Define a `blurred-text` class in our CSS file:
 
 And then apply to the HTML element:
 
-```
-
+```html
 <span className="blurred-text">Sam Jones</span>
-
 ```
 
 Here we have the blurred text on our site:
 
-<img src="/images/blur-text.png" alt="Blurred bio" />
+![Blurred bio](/images/blur-text.png)
 
 You can also increase/decrease the `blur-radius` value (e.g. from 7px to 5px) to change the transparency.
 
@@ -47,7 +45,7 @@ You can also increase/decrease the `blur-radius` value (e.g. from 7px to 5px) to
 
 If you need to blur the text inside an input field, you can use the following class:
 
-```
+```css
 .blur-on-lose-focus:not(:focus) {
   color: transparent;
   text-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
@@ -56,4 +54,4 @@ If you need to blur the text inside an input field, you can use the following cl
 
 And it will look something like this:
 
-<img src="/images/blur-input.png" alt="Blurred input" />
+![Blurred input](/images/blur-input.png)
