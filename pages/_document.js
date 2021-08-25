@@ -9,7 +9,8 @@ class MyDocument extends Document {
   render() {
     const meta = {
       title: 'Samuel Jones - Software Developer',
-      description: 'A semi-interesting tech blog by Samuel Jones',
+      description:
+        'A semi-interesting dev blog about JavaScript, CSS and HTML, and other fun topics.',
       image:
         'https://s3.eu-west-2.amazonaws.com/samjones.codes/Screenshot+2021-05-18+at+14.11.41.png'
     }
