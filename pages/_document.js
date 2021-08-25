@@ -12,7 +12,7 @@ class MyDocument extends Document {
       description:
         'A semi-interesting dev blog about JavaScript, CSS and HTML, and other fun topics.',
       image:
-        'https://s3.eu-west-2.amazonaws.com/samjones.codes/Screenshot+2021-05-18+at+14.11.41.png'
+        'https://s3.eu-west-2.amazonaws.com/samjones.codes/Screenshot+2021-08-25+at+12.21.48.png'
     }
 
     return (
@@ -24,7 +24,7 @@ class MyDocument extends Document {
           <meta property="og:description" content={meta.description} />
           <meta property="og:title" content={meta.title} />
           <meta property="og:image" content={meta.image} />
-          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@samueldjones" />
           <meta name="twitter:title" content={meta.title} />
           <meta name="twitter:description" content={meta.description} />
