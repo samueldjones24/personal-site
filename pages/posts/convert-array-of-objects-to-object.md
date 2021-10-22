@@ -1,7 +1,7 @@
 ---
 title: Convert an array of objects to a single object in JavaScript
 date: 2021/8/25
-description: How to convert an array of objects to a single object in JavaScript
+description: Includes the Array.reduce() and Object.entries() methods
 tag: javascript
 author: You
 ---

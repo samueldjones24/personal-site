@@ -1,12 +1,12 @@
 ---
-title: Use text-shadow to blur text in CSS
+title: How to blur text in CSS
 date: 2021/5/18
-description: How to blur text using text-shadow in CSS
+description: Using the CSS text-shadow property, we can add a blur effect to our text
 tag: css
 author: You
 ---
 
-# Use text-shadow to blur text in CSS
+# How to blur text in CSS
 
 <h2><span role="img" aria-label="thinking">🤔</span> Problem</h2>
 
