@@ -81,7 +81,7 @@ img.next-image {
 }
 
 img.profile-image {
-  margin: 0;
+  margin: 20px;
   border-radius: 30%;
   border: 1px solid var(--primary);
   box-shadow: var(--primary) 0px 3px 6px;
@@ -374,11 +374,6 @@ img {
   .nav-line {
     text-align: center;
     font-size: 1.3rem;
-  }
-
-  img.profile-image {
-    margin-left: 20px;
-    align-self: center;
   }
 
   .post-item-more {
