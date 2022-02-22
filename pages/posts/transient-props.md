@@ -1,7 +1,7 @@
 ---
 title: How to fix "Unknown prop warning" in React and styled components
 date: 2022/02/22
-description: Prefix the prop name with a dollar sign ($) to turn it into a transient prop
+description: Prefix the prop with a dollar sign ($) to turn it into a transient prop
 tag: react, styled components
 author: You
 ---
@@ -46,4 +46,4 @@ In this case, React knows that this is just a styling prop and will therefore le
 
 <h2><span role="img" aria-label="lightbulb">💡 </span> Extra Tip</h2>
 
-If VS Code is your text editor of choice and you regularly work with styled components, I would highly recommend installing the `vscode-styled-components` extension for lovely syntax highlighting and CSS IntelliSense. Really takes your styled components game to the next level!
+If VS Code is your text editor of choice and you regularly work with styled components, I would highly recommend installing the <a href="https://marketplace.visualstudio.com/items?itemName=diegolincoln.vscode-styled-components" target="_blank" rel="noopener noreferrer">vscode-styled-components</a> extension for lovely syntax highlighting and CSS IntelliSense. Really takes your styled components game to the next level!
