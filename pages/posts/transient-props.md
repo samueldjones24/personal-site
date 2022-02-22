@@ -1,6 +1,6 @@
 ---
 title: How to fix "Unknown prop warning" in React and styled components
-date: 2022/01/05
+date: 2022/02/22
 description: Prefix the prop name with a dollar sign ($) to turn it into a transient prop
 tag: react, styled components
 author: You
