@@ -3,7 +3,7 @@ title: Convert ISO date to local date in JavaScript
 date: 2021/5/18
 description: The Date.toLocaleString() method helps to represent dates in local formats
 tag: javascript
-author: You
+author: Samuel Jones
 ---
 
 # Convert an ISO date string to local date string in JavaScript
