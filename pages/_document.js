@@ -28,6 +28,7 @@ class MyDocument extends Document {
           <meta name="twitter:title" content={meta.title} />
           <meta name="twitter:description" content={meta.description} />
           <meta name="twitter:image" content={meta.image} />
+          <title>{meta.title}</title>
         </Head>
         <body>
           <Main />
