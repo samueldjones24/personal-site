@@ -149,6 +149,8 @@ article {
 
 img {
   border-radius: 3px;
+  width: auto;
+  min-height: 13rem;
 }
 
 .theme-changer {
