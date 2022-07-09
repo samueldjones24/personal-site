@@ -159,6 +159,12 @@ img {
   min-height: 13rem;
 }
 
+@media only screen and (max-width: 600px) {
+  img {
+    min-height: 8rem;
+  }
+}
+
 .theme-changer {
   position: absolute;
   top: 50px;
