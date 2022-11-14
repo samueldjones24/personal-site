@@ -91,6 +91,15 @@ img.profile-image {
   border-radius: 30%;
   border: 1px solid var(--primary);
   box-shadow: var(--primary) 0px 3px 6px;
+  height: 150px;
+  width: 150px;
+}
+
+@media only screen and (max-width: 500px) {
+  img.profile-image {
+    height: 100px;
+    width: 100px;
+  }
 }
 
 .post-item .post-item-more {
@@ -156,13 +165,6 @@ article {
 img {
   border-radius: 3px;
   width: auto;
-  min-height: 13rem;
-}
-
-@media only screen and (max-width: 600px) {
-  img {
-    min-height: 8rem;
-  }
 }
 
 .theme-changer {
